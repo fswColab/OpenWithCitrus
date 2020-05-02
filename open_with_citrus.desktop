@@ -28,4 +28,4 @@ Name=Open in Citrus
 Name[en_US]=Open in Citrus
 Name[en]=Open in Citrus
 Name[C]=Open in Citrus
-ExecutionMode=DisplayOutput
+ExecutionMode=Terminal
