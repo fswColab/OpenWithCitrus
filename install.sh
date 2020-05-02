@@ -21,6 +21,7 @@ cp ./open_with_citrus.desktop /home/citrus/.local/share/file-manager/actions/
 cp ./citrus.svg /home/citrus/.local/share/file-manager/actions/
 
 # restart caja
+echo '[+]Restarting caja'
 pkill caja
 
 echo '[+]Done.'
