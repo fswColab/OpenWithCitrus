@@ -22,7 +22,7 @@ mkdir -p /home/citrus/.local/share/file-manager/actions > /dev/null 2>&1
 cp ./open_with_citrus.desktop /home/citrus/.local/share/file-manager/actions/ 
 cp ./citrus.svg /home/citrus/.local/share/file-manager/actions/
 chown -R citrus:citrus /home/citrus/.local/share/file-manager/actions/ 
-chmod - R 755 /home/citrus/.local/share/file-manager/actions/ 
+chmod -R 755 /home/citrus/.local/share/file-manager/actions/ 
 
 # restart caja
 echo '[+]Restarting caja'
