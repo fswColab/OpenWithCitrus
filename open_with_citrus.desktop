@@ -21,7 +21,7 @@ TargetLocation=true
 
 [X-Action-Profile profile-zero]
 MimeTypes=all/all;
-Exec=/home/citrus/.local/share/bin/open_with_citrus.Rscript %f
+Exec=mate-terminal -e "/home/citrus/.local/share/bin/open_with_citrus.Rscript %f"
 Name=Open in Citrus
 
 
