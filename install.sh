@@ -12,7 +12,7 @@ apt-get -y install caja-actions
 echo '[+]Copying file ...'
 
 # cp open_with_citrus.Rscript
-mkdir /home/citrus/local/share/bin > /dev/null 2>&1
+mkdir /home/citrus/.local/share/bin > /dev/null 2>&1
 cp ./open_with_citrus.Rscript /home/citrus/.local/share/bin/
 
 # cp open_with_citrus.desktop & citrus icon
