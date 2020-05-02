@@ -14,11 +14,15 @@ echo '[+]Copying file ...'
 # cp open_with_citrus.Rscript
 mkdir -p /home/citrus/.local/share/bin > /dev/null 2>&1
 cp ./open_with_citrus.Rscript /home/citrus/.local/share/bin/
+chown citrus:citrus /home/citrus/.local/share/bin/open_with_citrus.Rscript
+chmod 755 /home/citrus/.local/share/bin/open_with_citrus.Rscript
 
 # cp open_with_citrus.desktop & citrus icon
 mkdir -p /home/citrus/.local/share/file-manager/actions > /dev/null 2>&1
 cp ./open_with_citrus.desktop /home/citrus/.local/share/file-manager/actions/ 
 cp ./citrus.svg /home/citrus/.local/share/file-manager/actions/
+chown -R citrus:citrus /home/citrus/.local/share/file-manager/actions/ 
+chmod - R 755 /home/citrus/.local/share/file-manager/actions/ 
 
 # restart caja
 echo '[+]Restarting caja'
